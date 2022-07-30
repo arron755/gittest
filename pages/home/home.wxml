@@ -1,0 +1,23 @@
+<!--pages/home/home.wxml-->
+
+<swiper indicator-dots circular>
+<swiper-item wx:for="{{swiperImg}}" wx:key="id" class="swiperitem">
+<image src="{{item.image}}" ></image>
+</swiper-item>
+</swiper>
+
+
+
+<view class="grid-list">
+<navigator wx:for="{{nightImg}}" wx:key="id" class="grid-item"
+ url="/pages/showlist/showlist?id={{item.id}}&name={{item.name}}">
+<image src="{{item.icon}}"></image>
+<text>{{item.name}}</text>
+</navigator>
+</view>
+
+
+<view class="img-box">
+  <image src="/images/link-01.png" mode="widthFix"></image>
+  <image src="/images/link-02.png" mode="widthFix"></image>
+</view>

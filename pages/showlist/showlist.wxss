@@ -1,0 +1,21 @@
+/* pages/showlist/showlist.wxss */
+.infolist{
+  display: flex;
+  border: 1px solid #efefef;
+  padding: 10rpx;
+}
+
+.infolist image{
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.showinfolist{
+  display: flex;
+  flex-direction: column;
+}
+
+.showinfolist text{
+  font-size: 24rpx;
+  margin-left: 8rpx;
+}

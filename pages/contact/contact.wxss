@@ -1,0 +1,5 @@
+/* pages/contact/contact.wxss */
+.colorlist{
+  line-height: 200rpx;
+  margin: 10rpx;
+}
